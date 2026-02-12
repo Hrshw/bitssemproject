@@ -16,4 +16,7 @@ docker run -p 5000:5000 poc-backend
 Run frontend using npm. Before running, install npm_modules using `npm install` in `frontend/poc/` directory.
 ```bash
 npm run dev
+
 ```
+
+Audio samples provided in the root directory for testing purposes.
