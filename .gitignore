@@ -7,53 +7,58 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node / Javascript / Vite / Next.js
+node_modules/
+dist/
+dist-ssr/
+build/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Yarn Berry
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Env files
+.env
+.env.*
+.flaskenv
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-# General
-.DS_Store
-.vscode/
-.idea/
-*.log
-
-# Python / Flask
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 venv/
 .venv/
 env/
-.env
-.flaskenv
 instance/
 .pytest_cache/
-coverage/
 htmlcov/
 
-# Node / Javascript
-node_modules/
-dist/
-build/
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Testing / Outputs
+coverage/
+backend/test.mp3
+backend/test.wav
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # OS Generated
 Thumbs.db
