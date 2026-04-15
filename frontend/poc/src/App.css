@@ -9,7 +9,7 @@
   --color-surface: rgb(255, 255, 255);
   --color-background: rgb(217, 217, 217);
   --color-border: rgb(229, 231, 235);
-  --color-highlight: rgb(244, 114, 182);
+  --color-highlight: rgb(240, 118, 58);
 }
 
 @layer base {
